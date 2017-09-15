@@ -19,7 +19,7 @@ paper1:
    - 101
    title: This is my paper about xyz
    abstract: This paper showcases tis and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   url: https://github.com/bigdata-i523/hid101/paper1/paper1.pdf
 ```
    
 # Paper 2
