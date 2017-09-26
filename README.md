@@ -17,7 +17,7 @@ paper1:
    - Huiyi Chen
    hid:
    - 101
-   title: This is my paper about xyz
+   title: Big Data and standardize testing
    abstract: This paper showcases tis and that and the other
    url: https://github.com/bigdata-i523/hid101/paper1/paper1.pdf
    status: in progress
