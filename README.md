@@ -28,13 +28,13 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - Huiyi Chen
    hid:
-   - 000
-   title: This is my paper about the other abc
-   abstract: This paper showcases tis and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
-   status: not yet started
+   - 101
+   title: This is my paper about xyz
+   abstract: This paper showcases tis and that and the other
+   url: https://github.com/bigdata-i523/hid101/paper1/paper1.pdf
+   status: in progress
 ```
 
 # Project 
@@ -47,9 +47,9 @@ paper2:
    type: project
    type: report
    author: 
-   - Gregor von Laszewski
+   - Huiyi Chen
    hid:
-   - 000
+   - 101
    title: Benchmarking a BigData Docker deployment
    abstract: This paper showcases tis and that and the other 
    url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
