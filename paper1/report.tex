@@ -1,64 +1,57 @@
 \documentclass[sigconf]{acmart}
 
-\input{format/i523}
+\usepackage{hyperref}
+
+\usepackage{endfloat}
+\renewcommand{\efloatseparator}{\mbox{}} % no new page between figures
+
+\usepackage{booktabs} % For formal tables
+
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
 
 \begin{document}
-\title{My great Big Dat Paper}
+\title{Big Data in Education and Standardized Testing}
 
 
 \author{Huiyi Chen}
-\orcid{1234-5678-9012}
+\orcid{hid101}
 \affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{2451 E. 10TH ST., 612}
-  \city{Bloomington} 
-  \state{Indiana} 
-  \postcode{47408}
+  \institution{Indiana University}
+  \date{October 2017}
 }
 \email{huiychen@indiana.edu}
 
 
 
 % The default list of authors is too long for headers}
-\renewcommand{\shortauthors}{B. Trovato et al.}
+\renewcommand{\shortauthors}{H. CHEN}
 
 
 \begin{abstract}
-This paper provides a sample of a \LaTeX\ document which conforms,
-somewhat loosely, to the formatting guidelines for
-ACM SIG Proceedings.
+This paper provides an insight of how big data is related to standardized testing. \LaTeX\ It will also describe some applications of big data in standardized testing, and how they function.
 \end{abstract}
 
-\keywords{ACM proceedings, \LaTeX, text tagging}
+\keywords{Big Data, standardized testing, education}
 
 
 \maketitle
 
 \section{Introduction}
 
-This is my Intro \cite{Editor00}.
-
-Add a sentence
-
-add a new sentnce
+Big data has been in our daily life for quite a long time. It is not surprising where hearing the word "big data" any more. We have also heard stories, for example, Target uses their data to predict the personal sale items. However, it seems like big data is still a new thing in education, or at least, people have not been making use of big data in education to improve the standardized testing environment and the students' learning experience. We will look into some questions and concerns that have been raised in the past of the similar topic and some applications that have been in place for the development of big data in the area at a high level.
 
 
-\section{The Body of The Paper}
-
+\section{Current Environment}
+The current environment of big data in education is controversial. Even without the concept
+of big data, standardized testing has already been a controversial topic in the fields due to the pressure from result efficiency and usability. 
 
 \section{Conclusions}
-
-This is my conclusion.
-
+Competition in education will be increasingly strong due to the growing population of students all over the world.\cite{Selingo2017}
 
 
-\begin{acks}
 
-  The authors would like to thank Dr. Yuhua Li for providing the
-  matlab code of the \textit{BEPS} method.
-
- 
-\end{acks}
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{report} 
