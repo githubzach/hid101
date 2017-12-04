@@ -12,7 +12,7 @@ paper1:
         - 101
     status: Oct 27th 100%
     title: Big Data and Standardized Testing
-    url: https://github.com/bigdata-i523/hid101/paper1/paper1.pdf
+    url: https://github.com/bigdata-i523/hid101/paper1/
 paper2:
     review: Nov 6 2017
     abstract: This paper showcases tis and that and the other
@@ -24,4 +24,18 @@ paper2:
     status: not yet started
     title: Benchmarking a BigData Docker deployment
     type: report
-    url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+    url: https://github.com/bigdata-i523/hid101/paper2/
+project:
+    review: Dec 4 2017
+    author:
+        - Huiyi Chen
+    pid:
+        - 101
+    title: TBD
+    abstract: >
+        We showcase tis and that and the other
+        and another line.
+    url: https://github.com/bigdata-i523/101/project/
+    type: project
+    status: Dec 04 17 0%
+    chapter: TBD
